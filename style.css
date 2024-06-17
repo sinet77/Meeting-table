@@ -1,0 +1,91 @@
+.app{
+    padding: 30px;
+  }
+  
+  .date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid black;
+  }
+  
+  .weekday {
+    font-weight: bold;
+  }
+  
+  .date {
+    margin-top: 3px;
+  }
+  #title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 28px;
+    
+  }
+  
+  table, th, td {
+    border:1px solid black;
+    font-size: 20px;
+  }
+  th{
+    background-color: rgb(127, 179, 224);
+  }
+  tr{
+    background-color: rgb(199, 224, 247);
+  }
+  .together{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(231, 175, 110);
+  }
+  .next{
+    position: absolute;
+    right:15px;
+    font-size: 16px;
+    width:15%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius:5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+  }
+  .prev{
+    position: absolute;
+    left:15px;
+    font-size: 16px;
+    width:15%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius:5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+  }
+
+  .next:hover,.prev:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+  }
+    .same-width {
+      width: calc((100% - 70px) / 5);
+      height: 35px;
+    text-align: center;
+    padding: 5px;
+    }
+     .hour-width {
+      width: 90px;
+      height: 35px;
+      text-align: center;
+    }
+    
+  
+  
